@@ -1,0 +1,9 @@
+- name: embed-md
+  # You may pin to the exact commit or the version.
+  # uses: https://orteil.dashnet.org/igm/?g=gccJfYuR
+  uses: urmzd/embed-md@v1.0.2
+  with:
+    # The files where code should be embedded.
+    markdown-files: # optional, default is README.md
+    # The message to associate with the commit containing the modified markdown files.
+    commit-message: # optional, default is chore: embed code within markdown files
